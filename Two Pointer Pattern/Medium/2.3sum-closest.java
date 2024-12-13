@@ -15,9 +15,9 @@ class Solution {
                     return target - currDiff;
                 }
 
-                // if (Math.abs(currDiff) < Math.abs(minDiff)) {
-                //     minDiff = currDiff;
-                // }
+                if (Math.abs(currDiff) < Math.abs(minDiff)) {
+                    minDiff = currDiff;
+                }
 
                 if (currDiff > 0) {
                     start++;
