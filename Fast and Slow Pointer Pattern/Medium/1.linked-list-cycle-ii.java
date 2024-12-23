@@ -1,3 +1,15 @@
+/**
+ * Leetcode question link
+ * https://leetcode.com/problems/linked-list-cycle-ii/description/
+ * 
+ * Approach:
+ * 1. Find the cyle
+ * 2. Find the length
+ * 3. Move the one pointer2 to -> length
+ * 4. Move one pointer1 from head and pointer 2 by one step each
+ * 5. Return the node if (pointer1 and pointer 2 matched)
+ */
+
 class Node {
     int val;
     Node next;
@@ -10,11 +22,6 @@ class Node {
 
 class Solution {
     public Node startOfLinkedList(Node head) {
-        // 1. Find the cyle
-        // 2. Find the length
-        // 3. Move the one pointer2 to -> length
-        // 4. Move one pointer1 from head and pointer 2 by one step each
-        // 5. Return the node if (pointer1 and pointer 2 matched)
         Node fast = head;
         Node slow = head;
         int len = 0;
