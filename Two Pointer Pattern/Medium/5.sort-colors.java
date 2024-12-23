@@ -27,6 +27,7 @@ class Solution {
                     int temp2 = nums[high];
                     nums[high] = nums[mid];
                     nums[mid] = temp2;
+                    high--;
                     break;
                     
                 default:
