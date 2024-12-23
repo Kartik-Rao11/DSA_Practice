@@ -2,15 +2,16 @@
 /**
  * Leet Code question link:
  * https://leetcode.com/problems/meeting-rooms/description/
+ * 
  * Given an array of intervals representingN appointments, find out if a person
  * can attend all the appointments.
+ * 
  * Approach:
  * 1. Sort the intervals according to thier start time.
  * 2. Check if the current interval's start < previous interval's end.
  * 3. If true -> then person cannot attend the meeting add the pair as
  * conflicting interval.
  * 4. If flase -> person can attend. Keep iterating.
- * 
  */
 import java.util.*;
 
