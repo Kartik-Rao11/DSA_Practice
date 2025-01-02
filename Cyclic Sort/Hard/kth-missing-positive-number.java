@@ -48,7 +48,7 @@ class Solution {
         }
         int j = 1;
         while (missingNumber.size() < k) {
-            int currNum = nums.length + 1;
+            int currNum = nums.length + j;
             if (!numberVisited.contains(currNum)) {
                 missingNumber.add(currNum);
             }
