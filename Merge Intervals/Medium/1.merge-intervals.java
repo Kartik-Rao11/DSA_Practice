@@ -39,11 +39,13 @@ class Solution {
                 end = Math.max(end, interval.end);
             } else {
                 result.add(new Interval(start, end));
+                //add the current interval for next comparision
                 start = interval.start;
                 end = interval.end;
             }
         }
 
+        //add the last interval manually
         result.add(new Interval(start, end));
         return result;
     }
