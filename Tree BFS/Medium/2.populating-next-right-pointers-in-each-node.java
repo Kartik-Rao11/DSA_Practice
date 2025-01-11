@@ -5,7 +5,7 @@ import java.util.Queue;
  * Leetcode question :
  * https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
  * Approach :
- * 1. Start Level Order Traversal. At each level connected the next of previous
+ * 1. Start Level Order Traversal. At each level connect the next of previous
  * node to the current.
  */
 
