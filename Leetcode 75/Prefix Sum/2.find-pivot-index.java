@@ -9,7 +9,7 @@
  * leftSum (initially 0) = totalSum -left -nums[i]
  * return i (Pivot index)
  * 
- * Time complexity -> O(N)
+ * Time complexity -> O(N) 2 Passes
  * 
  */
 
